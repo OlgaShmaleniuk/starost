@@ -187,8 +187,7 @@ overflow: hidden;
     line-height: 30px;
     color: #ffffff;
     float:left;
-    padding-top: 22px;
-    padding-left: 50px;
+    
 }
 .socialnetwork {
     font-family: 'PT Sans', sans-serif;
@@ -197,10 +196,6 @@ overflow: hidden;
     line-height: 30px;
     color: #ffffff;
     float: left;
-    padding-top: 22px;
-    padding-left: 120px;
-    padding-right: 110px;
-    
     }
 
 
@@ -212,7 +207,6 @@ overflow: hidden;
     line-height: 30px;
     color: #ffffff;
     float: left;
-    padding-top: 20px;
 }
 .designedby {
     font-family: 'PT Sans', sans-serif;
@@ -221,10 +215,16 @@ overflow: hidden;
     line-height: 30px;
     color: #ffffff;
     float: left;
-    padding-top: 22px;
-    padding-left: 120px;
 }
 
+.copy, .socialnetwork, .stazirovka, .designedby {
+   width: 25%;
+   padding-top: 15px;
+}
+img.facebook {
+
+}
+.clear {}
 
 h1 {
     font-family: 'PT Sans', sans-serif;
@@ -276,6 +276,7 @@ font-size: 16px;
 line-height: 30px;
 font-weight: 700;
 border-bottom: 1px dashed #4a4646;
+display: inline-block;
 }
 
 span.java:hover {
@@ -404,12 +405,12 @@ p.text {
     display: inline-block;
     text-align: center;
 }
-.svg-pict1 {
+/*.svg-pict1 {
     height: 221px;
     width: 300px;
     display: inline-block;
     text-align: center;
-}
+}*/
 .menu {
     float: right;
 }
@@ -521,8 +522,11 @@ img.granny {
 .letters2 {
     float: left;
     overflow: hidden;
-    width: 44%;
-    height: 517px;
+    width: 57%;
+    margin-left: -20px;
+    margin-right: -100%;
+   
+
     margin-top: 20px;
    
 }
@@ -711,4 +715,5 @@ textarea {
 	height: 239px;
 	width: 463px;
 	padding: 10px;
+    resize: none;
 	}
